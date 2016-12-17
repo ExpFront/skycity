@@ -1,5 +1,5 @@
 {
-  "name": "bot",
+  "name": "skycity",
   "version": "1.0.0",
   "description": "Организация учебного процесса с помощью чат-бота.",
   "keywords": [
@@ -33,16 +33,8 @@
     "selenium-install": "node seleniumInstall.js",
     "selenium-start": "selenium-standalone start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Geekymate/bot.git"
-  },
   "author": "ExpFront",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Geekymate/bot/issues"
-  },
-  "homepage": "https://github.com/Geekymate/bot#readme",
   "dependencies": {
     "angular": "^1.5.0",
     "angular-ui-router": "^0.2.18",
@@ -95,5 +87,14 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ExpFront/skycity.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ExpFront/skycity/issues"
+  },
+  "homepage": "https://github.com/ExpFront/skycity#readme"
 }
