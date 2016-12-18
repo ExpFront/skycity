@@ -9,10 +9,9 @@
     "hostel"
   ],
   "scripts": {
+    "start": "npm run server",
     "build": "rimraf dist && webpack --bail --progress --profile",
     "server": "webpack-dev-server --history-api-fallback --inline --progress",
-    "start": "npm run server",
-    "stats": "webpack --json --profile > stats.json"
   },
   "author": "ExpFront",
   "license": "ISC",
