@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npm run server",
     "build": "rimraf dist && webpack --bail --progress --profile",
-    "server": "webpack-dev-server --history-api-fallback --inline --progress",
+    "server": "webpack-dev-server --history-api-fallback --inline --progress"
   },
   "author": "ExpFront",
   "license": "ISC",
